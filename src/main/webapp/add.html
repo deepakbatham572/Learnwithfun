@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="UTF-8">
+<!---<title> Responsive Registration Form | CodingLab </title>--->
+<link rel="stylesheet" href="stylecourse.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<div class="title">Course Registration Form</div>
+		<div class="content">
+			<form action="SaveCourseRegister" method="post">
+				<div class="user-details">
+
+
+					<div class="input-box">
+						<span class="details">Course Name</span> <input type="text"
+							placeholder="Enter your course name " name="coursename" required>
+					</div>
+
+					<div class="input-box">
+						<span class="details">Your Name </span> <input type="text"
+							placeholder="Enter your course fees" name="yourname" required>
+
+					</div>
+					<div class="col-md-12 pt-2">
+						<div class="form-check">
+							<input type="checkbox" id="check" name="check"
+								class="form-check-input" required=""> <label for="check"
+								class="form-check-label text-white">I am not a Robot</label>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<input type="submit" value="Register">
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>

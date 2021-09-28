@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="stylecourse.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Course Form </div>
+        <div class="content">
+            <form action="SaveCourse" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Course Id </span>
+                        <input type="text" placeholder="Enter your course id " name="course_id" >
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Course Name</span>
+                        <input type="text" placeholder="Enter your course name " name ="c_name" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="details">Course Description</span>
+                        <input type="text" placeholder="Enter course description" name= "c_desp" required>
+                    </div>
+                
+                     
+                      <div class="input-box">
+                    <span class="details">Course Fees</span>
+                    <input type="text" placeholder="Enter your course fees" name= "c_fees" required>
+                     </div>
+                      <div class="file btn btn-lg btn-primary">
+                    Course Resources
+                    <input type="file" name="c_resource" />
+                    
+                     </div>
+            </div>    
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
